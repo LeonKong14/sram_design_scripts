@@ -1,0 +1,6 @@
+tests:
+  - addr: 1
+    write_data: 170  # 0xAA
+  - addr: 2
+    write_data: 85   # 0x55
+  - read_addrs: [1, 2]
